@@ -1,15 +1,14 @@
-# [Calculator-Redux](https://mattmatters.github.io/calculator-redux/)
+# Markdown Preview
 
-This is a fully functioning chain-based calculator.  This was made primarily for myself as an exercise in using redux's state management combined with React's rendering capabilities.
-
+This is a single page client-side web application that converts markdown into html using [marked](https://github.com/chjj/marked)
 
 ## Installation
 
-Assuming you already have yarn:
+We reccomend yarn as a package manager to take advantage of the lockfile present
 
 ```sh
-git clone "https://github.com/mattmatters/calculator-redux.git"
-cd calculator-redux
+git clone "https://github.com/mattmatters/markdownPreview.git"
+cd markDownPreview
 yarn install
 ```
 
