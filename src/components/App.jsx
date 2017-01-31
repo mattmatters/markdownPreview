@@ -11,7 +11,7 @@ const App = ({ handleInputChange, compiledMarkDown }) => (
     <div className="row">
       <div className="col-sm-6">
         <h3 className="text-center"> Input </h3>
-        <input
+        <textarea
           id="markdown-input"
           type="text"
           onInput={() => handleInputChange(document.getElementById('markdown-input').value)}
