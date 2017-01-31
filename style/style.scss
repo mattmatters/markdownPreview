@@ -1,18 +1,6 @@
-// Constants
-$screen-background: #e6e600;
-$btn-font-color: white;
-
-// Config
-
 h1, h2, h3 {
   font-family: 'Monoton', cursive;
 }
-
-a, p, li {
-
-}
-
-// Classes and ids
 
 .app {
   padding: 20px;
@@ -21,13 +9,4 @@ a, p, li {
 #markdown-input {
   width: 100%;
   height: 300px;
-}
-
-// Utility classes
-.center {
-  margin: 0 auto;
-}
-
-.fill-parent {
-  width: 100%;
 }
