@@ -22,6 +22,14 @@ const App = ({ handleInputChange, compiledMarkDown }) => (
         {compiledMarkDown}
       </div>
     </div>
+    <footer>
+      <p className="text-center">
+        This was made possible by Christopher Jeffreys <a href="https://github.com/chjj/marked" target="_blank" rel="noopener noreferrer"> Marked </a>
+      </p>
+      <p className="text-center">
+        Designed and Developed by <a href="http://themattersofmatt.com" target="_blank" rel="noopener noreferrer"> Matt Lewis </a>
+      </p>
+    </footer>
   </div>
 );
 
